@@ -11,6 +11,7 @@ public class Moves : MonoBehaviour {
 	public float speedNormal;
 	public float speedZombie;
 	public float speedFeu;
+	public float speedGlace;
 	private float m_maxSpeed;
 	// Use this for initialization
 	void Start () {
@@ -21,7 +22,26 @@ public class Moves : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		if(States.Etat.normal == state.m_etat)
+		{
+			m_maxSpeed = speedNormal;
+		}
+		else if (States.Etat.glace == state.m_etat)
+		{
+			m_maxSpeed = speedGlace;
+		}
+		else if (States.Etat.feu == state.m_etat)
+		{
+			m_maxSpeed = speedFeu;
+		}
+		else if (States.Etat.zombie == state.m_etat)
+		{
+			m_maxSpeed = speedZombie;
+		}
+		else
+		{
+			m_maxSpeed = 0;
+		}
 	}
 
 	void FixedUpdate(){
