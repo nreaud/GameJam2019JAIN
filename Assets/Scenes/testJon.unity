@@ -309,6 +309,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114562532304000188, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
       propertyPath: m_direction
@@ -323,11 +328,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_etat
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114045997097292068, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
@@ -544,7 +544,7 @@ Transform:
   m_LocalScale: {x: 1.1875, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1036692090
 PrefabInstance:
@@ -833,6 +833,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756671334359514, guid: e1b06563182e94d00839603bf84b9378, type: 3}
+      propertyPath: m_Name
+      value: poulet (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4241543770136558, guid: e1b06563182e94d00839603bf84b9378, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.19
@@ -877,6 +881,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114562532304000188, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
       propertyPath: m_etat
@@ -885,11 +894,6 @@ PrefabInstance:
     - target: {fileID: 114562532304000188, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
       propertyPath: m_direction
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
-        type: 3}
-      propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114045997097292068, guid: e1b06563182e94d00839603bf84b9378,
@@ -911,10 +915,6 @@ PrefabInstance:
         type: 3}
       propertyPath: speedFeu
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756671334359514, guid: e1b06563182e94d00839603bf84b9378, type: 3}
-      propertyPath: m_Name
-      value: poulet (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1b06563182e94d00839603bf84b9378, type: 3}
@@ -1143,6 +1143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756671334359514, guid: e1b06563182e94d00839603bf84b9378, type: 3}
+      propertyPath: m_Name
+      value: poulet (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4241543770136558, guid: e1b06563182e94d00839603bf84b9378, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.79
@@ -1187,6 +1191,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114562532304000188, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
       propertyPath: m_direction
@@ -1196,11 +1205,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_etat
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 50115317243383882, guid: e1b06563182e94d00839603bf84b9378,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114045997097292068, guid: e1b06563182e94d00839603bf84b9378,
         type: 3}
@@ -1221,10 +1225,6 @@ PrefabInstance:
         type: 3}
       propertyPath: speedFeu
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756671334359514, guid: e1b06563182e94d00839603bf84b9378, type: 3}
-      propertyPath: m_Name
-      value: poulet (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1b06563182e94d00839603bf84b9378, type: 3}
