@@ -11,7 +11,7 @@ public class Moves : MonoBehaviour {
 	public float speedZombie;
 	public float speedFeu;
 	public float speedGlace;
-	public float m_maxSpeed;
+	private float m_maxSpeed;
 	// Use this for initialization
 	void Start () {
         physic = gameObject.GetComponent<Rigidbody2D>();

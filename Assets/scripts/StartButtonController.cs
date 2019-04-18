@@ -5,7 +5,7 @@ using UnityEngine;
 public class StartButtonController : MonoBehaviour
 {
     public bool start;
-    public Object[] poulets;
+    private Object[] poulets;
     // Start is called before the first frame update
     void Start()
     {
