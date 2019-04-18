@@ -1,6 +1,8 @@
-/Assembly-CSharp.csproj
-/GameJam2019JAIN.sln
-/Library/
-/Temp/
-/ProjectSettings/
-/Logs/
+Assembly-CSharp.csproj
+GameJam2019JAIN.sln
+Library/
+Temp/
+ProjectSettings/
+Logs/
+.vs/
+obj/
