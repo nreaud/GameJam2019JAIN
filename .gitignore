@@ -1,8 +1,9 @@
-
+Assembly-CSharp.csproj
+GameJam2019JAIN.sln
 Library/
-
 Temp/
-
+ProjectSettings/
+Logs/
+.vs/
+obj/
 UnityPackageManager/
-
-Assembly-CSharp\.csproj
