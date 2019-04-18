@@ -1,6 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1756671334359514
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13,7 +12,6 @@ GameObject:
   - component: {fileID: 50115317243383882}
   - component: {fileID: 61923203007757978}
   - component: {fileID: 114562532304000188}
-  - component: {fileID: 114297681351371022}
   - component: {fileID: 114045997097292068}
   - component: {fileID: 61273655980651282}
   m_Layer: 0
@@ -136,16 +134,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1756671334359514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 633cceddaaede4650b0b53a050121635, type: 3}
+  m_Script: {fileID: 11500000, guid: dd9c8c0d186de44ad8b60aeff6a6e94e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_direction: 1
-  m_etat: 0
-  m_type: 0
-  isJumping: 0
-  jumpForce: 0
   acceleration: 10
   speedNormal: 0
   speedZombie: 0
   speedFeu: 0
   speedGlace: 0
+  m_maxSpeed: 0
+  m_direction: 0
+  m_etat: 0
+  m_type: 0
+  isJumping: 1
