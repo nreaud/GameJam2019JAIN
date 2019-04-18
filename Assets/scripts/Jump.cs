@@ -6,7 +6,7 @@ public class Jump : MonoBehaviour {
 	private Rigidbody2D physic;
 	private States state;
 
-	public float jumpForce = 30;
+	public float jumpForce = 40;
 	// Use this for initialization
 	void Start () {
 		physic = gameObject.GetComponent<Rigidbody2D> ();

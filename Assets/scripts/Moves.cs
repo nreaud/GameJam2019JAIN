@@ -16,32 +16,32 @@ public class Moves : MonoBehaviour {
 	void Start () {
         physic = gameObject.GetComponent<Rigidbody2D>();
         state = gameObject.GetComponent<States>();
-        //A appeler seulement 1 fois quand l'objet change d'etat
-        if (States.Etat.normal == state.m_etat)
-        {
-            m_maxSpeed = speedNormal;
-        }
-        else if (States.Etat.glace == state.m_etat)
-        {
-            m_maxSpeed = speedGlace;
-        }
-        else if (States.Etat.feu == state.m_etat)
-        {
-            m_maxSpeed = speedFeu;
-        }
-        else if (States.Etat.zombie == state.m_etat)
-        {
-            m_maxSpeed = speedZombie;
-        }
-        else
-        {
-            m_maxSpeed = 0;
-        }
+
     }
 
 	// Update is called once per frame
 	void Update () {
-        
+		//A appeler seulement 1 fois quand l'objet change d'etat
+		if (States.Etat.normal == state.m_etat)
+		{
+				m_maxSpeed = speedNormal;
+		}
+		else if (States.Etat.glace == state.m_etat)
+		{
+				m_maxSpeed = speedGlace;
+		}
+		else if (States.Etat.feu == state.m_etat)
+		{
+				m_maxSpeed = speedFeu;
+		}
+		else if (States.Etat.zombie == state.m_etat)
+		{
+				m_maxSpeed = speedZombie;
+		}
+		else
+		{
+				m_maxSpeed = 0;
+		}
 	}
 
 	void FixedUpdate(){
