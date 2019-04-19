@@ -7,3 +7,5 @@ Logs/
 .vs/
 obj/
 UnityPackageManager/
+Build/
+Build.7z

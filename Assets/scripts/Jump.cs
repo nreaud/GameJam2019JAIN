@@ -19,7 +19,9 @@ public class Jump : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		if(!state.isJumping)
+		if(!state.isJumping
+		&& state.m_etat != States.Etat.mort
+		&& state.m_etat != States.Etat.glace)
 		{
 			physic.AddForce (Vector2.up * jumpForce);
 		}
